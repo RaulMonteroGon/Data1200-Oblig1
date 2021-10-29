@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <!--Css -->
+     <link href="Css/index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<!--Biggest-Container -->
+<div id ="Container">
+
+     
+    <header>
+        <!--"Logo -->
+        <div id = "LogoContainer">
+            <img id="logo" src="Pictures/Logo.jpg" alt="logo" >
+        </div>
+        
+       <!-- Navigation--> 
+        <div id ="Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="lunch.html">Lunch</a>
+                        <a href="dinner.html">Dinner</a>
+                        <a href="snacks.html">Snacks</a>
+                    </div>
+                </div>
+             
+                 <li><a href="info.html">Info</a></li>
+            </ul>
+        </div>
+        
+    </header>
+
+
+
+    <body>
+        <!--Container2-->
+        <div id="Content">
+ 
+            <!--"Welcome" picture -->
+            <div id="MainPicture">
+                <img id="picture1" src="Pictures/MainPicture.jpg" alt="main pic" >
+            </div>
+            
+
+            <!--Title -->
+            <div id = "Text1">
+                <h1>Welcome To Our Cuisine!</h1>
+            </div>
+
+           <!--Lunch,Dinner,Snacks -->
+            <div id ="info-container" >
+                
+                <div class="boks" >
+                    <button onclick="location.href='lunch.html'" class = "button" type="button">Lunch</button>
+                </div>
+
+                <div class="boks">
+                    <button onclick="location.href='dinner.html'" class = "button" type="button">Dinner</button>
+                </div>
+
+                <div class="boks">
+                    <button onclick="location.href='snacks.html'" class = "button"  type="button">Snacks</button>
+                </div>
+                
+
+            </div>
+
+            <div id ="line">
+
+            </div>
+
+        </div>
+    </body>
+
+    <!--Footer-->
+    <footer>
+        <div id="footer-container">
+        <div class="footer-content">
+                <p>Copyright ©2021 <a href="index.html">The Jazz Windmill</a></p>
+        </div>       
+    </footer>
+
+</div>
+
+
+
+</html>
