@@ -1,0 +1,608 @@
+
+html, body {
+    min-height: 100%;
+     
+}
+/*---------------------------------------------------------- */
+ 
+#Container {
+    background-color: whitesmoke;
+    margin: 20px 40px 20px 40px;
+    border-style: solid;    
+    border-color:#363636;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
+
+
+/* Logo */
+#LogoContainer {
+    border:  0px solid black;
+    margin-top: 40px ;   
+    text-align: center;
+}
+
+#logo {   
+    height: 100px;
+    border-style: solid;
+    border-color: #707070; 
+}
+
+/*---------------------------------------------------------- */
+
+/* Navigation Bar */
+#Navigation {
+    border-style: solid;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #363636;
+    border-color: #707070;    
+    height: 80px;
+    width: 1000px;
+    margin: 70px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    margin-top: 21px;
+     
+    
+}
+
+li {
+   display:  inline;
+   margin-right: 20px;
+   margin-left: 20px;
+   
+}
+
+li a {
+    text-decoration: none;
+    background-color: white;
+    border:  1px solid rgb(143, 44, 44);
+    padding: 5px 60px 5px 60px;
+  
+    color:#707070;
+    font-size: 150%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+ 
+
+li a:hover {
+    background-color: #eee7e7;
+  }
+/*----------- */
+ 
+.dropbtn {
+    background-color: white;
+    color: #707070;
+    padding: 5px 60px 5px 60px;
+    
+    cursor: pointer;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 150%;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+  
+  
+.dropdown-content a {
+    color: #707070;
+    padding: 12px 55px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #eee7e7;
+  }
+
+/*----------- */
+
+
+
+
+
+
+/*---------------------------------------------------------- */
+
+/* Main Picture */
+
+#MainPicture{
+    border:  0px solid black;
+    text-align: center;
+}
+
+#picture1 {
+    height: 600px;
+    border-style: solid;
+    border-color: #707070;
+    border-radius:  3px;
+}
+
+/*---------------------------------------------------------- */
+
+/* H1 */
+#Text1 {
+    text-align: center;
+    font-size: 150%;
+    color: #363636;
+    font-family:  Arial, Geneva, Helvetica, sans-serif;
+
+    margin-top:  70px;
+}
+
+/*---------------------------------------------------------- */
+
+#info-container{
+    border-style: solid;
+    border-color: whitesmoke;
+    margin-top: 60px;
+    display: flex; 
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.boks {
+    border-style: solid;
+    border-color: whitesmoke;   
+}
+
+
+
+.button {
+    font-size: 20px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background: #363636;
+    color: white; 
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button a:visited{color: white;}
+
+#line {
+    border-style: solid;
+    margin: 20px 470px 0 470px;
+    border-width: thin;
+}
+
+
+
+
+/* Information Container */
+#info-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+     
+    height: 500px;
+    border-style: solid;
+    border-color: #707070;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color: #363636;
+    border-radius: 5x;
+}
+ 
+#info-container2 p{
+   
+    color: white;
+  }
+
+
+#info-container2 h1{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+  }
+     
+ 
+ 
+
+/*---------------------------------------------------------- */
+/*Maps*/
+#overview-map {
+ 
+    margin-top: 50px;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+#map2 {
+    border-style: solid;
+    border-radius: 5px;
+    border-width:  4px;
+    border-color:#707070;
+}
+ 
+ /*---------------------------------------------------------- */
+
+ /*Report page and button*/
+
+ #report {
+    text-align: center;
+}
+
+#report-button {
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    background: #363636;
+    color: white; 
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);  
+}
+
+#info-container-raport {
+    border-style: dashed;
+    margin: 50px 100px 0px 100px;
+}
+
+.package {
+    margin: 20px 25px 0px 25px;
+}
+
+.package-img {
+    text-align: center;
+}
+
+ .report-picture1 {
+     height: 400px;
+     width: 250px;
+     border-style: solid;
+ }
+
+
+ /*---------------------------------------------------------- */
+
+
+ /*Footer*/
+
+#footer-container {
+    border-style: solid;
+    border-color:#707070;
+    background-color: #363636;
+
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 150px 200px 10px 200px;
+}
+
+ 
+.footer-content p {
+    color: white;
+}
+ 
+
+
+ 
+html, body {
+    min-height: 100%;
+     
+}
+/*---------------------------------------------------------- */
+ 
+#Container {
+    background-color: whitesmoke;
+    margin: 20px 40px 20px 40px;
+    border-style: solid;    
+    border-color:#363636;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
+
+
+/* Logo */
+#LogoContainer {
+    border:  0px solid black;
+    margin-top: 40px ;   
+    text-align: center;
+}
+
+#logo {   
+    height: 100px;
+    border-style: solid;
+    border-color: #707070; 
+}
+
+/*---------------------------------------------------------- */
+
+/* Navigation Bar */
+#Navigation {
+    border-style: solid;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #363636;
+    border-color: #707070;    
+    height: 80px;
+    width: 1000px;
+    margin: 70px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    margin-top: 21px;
+     
+    
+}
+
+.menubar {
+   display:  inline;
+   margin-right: 20px;
+   margin-left: 20px;
+   
+}
+
+.menubar a {
+    text-decoration: none;
+    background-color: white;
+    border:  1px solid rgb(143, 44, 44);
+    padding: 5px 60px 5px 60px;
+  
+    color:#707070;
+    font-size: 150%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+ 
+
+.menubar a:hover {
+    background-color: #eee7e7;
+  }
+
+  .navmenu {
+    margin-top: 21px;
+     
+    
+}
+/*----------- */
+ 
+.dropbtn {
+    background-color: white;
+    color: #707070;
+    padding: 5px 60px 5px 60px;
+    
+    cursor: pointer;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 150%;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+  
+  
+.dropdown-content a {
+    color: #707070;
+    padding: 12px 55px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #eee7e7;
+  }
+
+/*----------- */
+
+
+
+
+
+
+/*---------------------------------------------------------- */
+
+/* Main Picture */
+
+#MainPicture{
+    border:  0px solid black;
+    text-align: center;
+}
+
+#picture1 {
+    height: 600px;
+    border-style: solid;
+    border-color: #707070;
+    border-radius:  3px;
+}
+
+/*---------------------------------------------------------- */
+
+/* H1 */
+#Text1 {
+    text-align: center;
+    font-size: 150%;
+    color: #363636;
+    font-family:  Arial, Geneva, Helvetica, sans-serif;
+
+    margin-top:  70px;
+}
+
+/*---------------------------------------------------------- */
+
+#info-container{
+    border-style: solid;
+    border-color: whitesmoke;
+    margin-top: 60px;
+    display: flex; 
+    justify-content: center;
+    gap: 60px;
+}
+
+
+.boks {
+    border-style: solid;
+    border-color: whitesmoke;   
+}
+
+
+
+.button {
+    font-size: 20px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background: #363636;
+    color: white; 
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button a:visited{color: white;}
+
+#line {
+    border-style: solid;
+    margin: 20px 470px 0 470px;
+    border-width: thin;
+}
+
+
+/* Information Container */
+#info-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+     
+    height: 500px;
+    border-style: solid;
+    border-color: #707070;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    background-color: #363636;
+    border-radius: 5px;
+}
+ 
+#info-container2 p{
+   
+    color: white;
+  }
+
+
+#info-container2 h1{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+  }
+    
+  
+ 
+ 
+
+/*---------------------------------------------------------- */
+/*Maps*/
+#overview-map {
+ 
+    margin-top: 50px;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+#map2 {
+    border-style: solid;
+    border-radius: 5px;
+    border-width:  4px;
+    border-color:#707070;
+}
+ 
+ /*---------------------------------------------------------- */
+
+ /*Footer*/
+
+#footer-container {
+    border-style: solid;
+    border-color:#707070;
+    background-color: #363636;
+
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 150px 200px 10px 200px;
+}
+
+ 
+.footer-content p {
+    color: white;
+}
+ 
+
+
+ 
